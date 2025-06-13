@@ -1,4 +1,5 @@
 import { Clock, Users, MapPin, FileText } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const FeaturedGuides = () => {
   const guides = [
@@ -8,7 +9,8 @@ const FeaturedGuides = () => {
       category: "Housing",
       readTime: "15 min read",
       icon: <MapPin className="h-6 w-6" />,
-      featured: true
+      featured: true,
+      link: "/guides/apartment-stockholm"
     },
     {
       title: "Getting Your Personnummer",
@@ -16,7 +18,8 @@ const FeaturedGuides = () => {
       category: "Bureaucracy",
       readTime: "8 min read",
       icon: <FileText className="h-6 w-6" />,
-      featured: true
+      featured: true,
+      link: "#"
     },
     {
       title: "Stockholm Public Transport Guide",
@@ -24,7 +27,8 @@ const FeaturedGuides = () => {
       category: "Transport",
       readTime: "12 min read",
       icon: <Users className="h-6 w-6" />,
-      featured: true
+      featured: true,
+      link: "#"
     },
     {
       title: "Working in Stockholm",
@@ -32,7 +36,8 @@ const FeaturedGuides = () => {
       category: "Working",
       readTime: "20 min read",
       icon: <Clock className="h-6 w-6" />,
-      featured: false
+      featured: false,
+      link: "#"
     },
     {
       title: "Stockholm's Best Neighborhoods",
@@ -40,7 +45,8 @@ const FeaturedGuides = () => {
       category: "Living",
       readTime: "18 min read",
       icon: <MapPin className="h-6 w-6" />,
-      featured: false
+      featured: false,
+      link: "#"
     },
     {
       title: "Banking and Finance in Sweden",
@@ -48,7 +54,8 @@ const FeaturedGuides = () => {
       category: "Money",
       readTime: "10 min read",
       icon: <FileText className="h-6 w-6" />,
-      featured: false
+      featured: false,
+      link: "#"
     }
   ];
 
@@ -63,7 +70,11 @@ const FeaturedGuides = () => {
           <h2 className="text-3xl font-bold text-gray-900 mb-8">Featured Guides</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {featuredGuides.map((guide, index) => (
-              <article key={index} className="bg-white rounded-xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-xl transition-shadow cursor-pointer">
+              <Link
+                key={index}
+                to={guide.link}
+                className="bg-white rounded-xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-xl transition-shadow cursor-pointer block"
+              >
                 <div className="p-6">
                   <div className="flex items-center justify-between mb-4">
                     <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800">
@@ -86,7 +97,7 @@ const FeaturedGuides = () => {
                     </span>
                   </div>
                 </div>
-              </article>
+              </Link>
             ))}
           </div>
         </div>
@@ -96,7 +107,11 @@ const FeaturedGuides = () => {
           <h2 className="text-3xl font-bold text-gray-900 mb-8">Popular Guides</h2>
           <div className="grid md:grid-cols-3 gap-6">
             {otherGuides.map((guide, index) => (
-              <article key={index} className="bg-gray-50 rounded-lg border border-gray-200 p-6 hover:bg-white hover:shadow-md transition-all cursor-pointer">
+              <Link
+                key={index}
+                to={guide.link}
+                className="bg-gray-50 rounded-lg border border-gray-200 p-6 hover:bg-white hover:shadow-md transition-all cursor-pointer block"
+              >
                 <div className="flex items-center justify-between mb-3">
                   <span className="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-gray-200 text-gray-700">
                     {guide.category}
@@ -117,7 +132,7 @@ const FeaturedGuides = () => {
                     Read more →
                   </span>
                 </div>
-              </article>
+              </Link>
             ))}
           </div>
         </div>
