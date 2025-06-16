@@ -12,6 +12,9 @@ import TransportGuide from "./pages/TransportGuide";
 import WorkingGuide from "./pages/WorkingGuide";
 import LivingGuide from "./pages/LivingGuide";
 import MoneyGuide from "./pages/MoneyGuide";
+import CultureGuide from "./pages/CultureGuide";
+import FoodGuide from "./pages/FoodGuide";
+import HousingGuide from "./pages/HousingGuide";
 import GuidesOverview from "./pages/GuidesOverview";
 import NotFound from "./pages/NotFound";
 
@@ -33,6 +36,9 @@ const App = () => (
           <Route path="/guides/working" element={<WorkingGuide />} />
           <Route path="/guides/living" element={<LivingGuide />} />
           <Route path="/guides/money" element={<MoneyGuide />} />
+          <Route path="/guides/culture" element={<CultureGuide />} />
+          <Route path="/guides/food" element={<FoodGuide />} />
+          <Route path="/guides/housing" element={<HousingGuide />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

@@ -1,17 +1,18 @@
 
 import { Search, Menu, X } from 'lucide-react';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navigationItems = [
-    { name: 'Living', href: '#' },
-    { name: 'Working', href: '#' },
-    { name: 'Housing', href: '#' },
-    { name: 'Culture', href: '#' },
-    { name: 'Transport', href: '#' },
-    { name: 'Food', href: '#' },
+    { name: 'Living', href: '/guides/living' },
+    { name: 'Working', href: '/guides/working' },
+    { name: 'Housing', href: '/guides/housing' },
+    { name: 'Culture', href: '/guides/culture' },
+    { name: 'Transport', href: '/guides/transport' },
+    { name: 'Food', href: '/guides/food' },
   ];
 
   return (
@@ -20,21 +21,21 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold text-blue-600">
+            <Link to="/" className="text-2xl font-bold text-blue-600">
               All About Stockholm
-            </h1>
+            </Link>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
             {navigationItems.map((item) => (
-              <a
+              <Link
                 key={item.name}
-                href={item.href}
+                to={item.href}
                 className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors"
               >
                 {item.name}
-              </a>
+              </Link>
             ))}
           </nav>
 
@@ -59,13 +60,14 @@ const Header = () => {
           <div className="md:hidden border-t border-gray-100">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navigationItems.map((item) => (
-                <a
+                <Link
                   key={item.name}
-                  href={item.href}
+                  to={item.href}
                   className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md transition-colors"
+                  onClick={() => setIsMenuOpen(false)}
                 >
                   {item.name}
-                </a>
+                </Link>
               ))}
             </div>
           </div>
