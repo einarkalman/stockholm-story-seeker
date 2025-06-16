@@ -1,3 +1,4 @@
+
 import { Clock, Users, MapPin, FileText } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -19,7 +20,7 @@ const FeaturedGuides = () => {
       readTime: "8 min read",
       icon: <FileText className="h-6 w-6" />,
       featured: true,
-      link: "#"
+      link: "/guides/bureaucracy"
     },
     {
       title: "Stockholm Public Transport Guide",
@@ -28,7 +29,7 @@ const FeaturedGuides = () => {
       readTime: "12 min read",
       icon: <Users className="h-6 w-6" />,
       featured: true,
-      link: "#"
+      link: "/guides/transport"
     },
     {
       title: "Working in Stockholm",
@@ -37,7 +38,7 @@ const FeaturedGuides = () => {
       readTime: "20 min read",
       icon: <Clock className="h-6 w-6" />,
       featured: false,
-      link: "#"
+      link: "/guides/working"
     },
     {
       title: "Stockholm's Best Neighborhoods",
@@ -46,7 +47,7 @@ const FeaturedGuides = () => {
       readTime: "18 min read",
       icon: <MapPin className="h-6 w-6" />,
       featured: false,
-      link: "#"
+      link: "/guides/living"
     },
     {
       title: "Banking and Finance in Sweden",
@@ -55,7 +56,7 @@ const FeaturedGuides = () => {
       readTime: "10 min read",
       icon: <FileText className="h-6 w-6" />,
       featured: false,
-      link: "#"
+      link: "/guides/money"
     }
   ];
 

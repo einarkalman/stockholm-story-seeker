@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
@@ -28,7 +29,7 @@ const Hero = () => {
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
             <Link
-              to="/guides/apartment-stockholm"
+              to="/guides"
               className="inline-flex items-center px-8 py-4 border border-blue-300 text-lg font-medium rounded-lg text-white hover:bg-blue-300 transition-colors shadow-lg"
             >
               Browse Guides
