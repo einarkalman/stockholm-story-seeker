@@ -35,7 +35,7 @@ const TransportGuide = () => {
           <div className="prose max-w-none">
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Understanding SL (Storstockholms Lokaltrafik)</h2>
             <p className="text-gray-600 mb-6">
-              SL operates Stockholm's comprehensive public transport network, including buses, metro (Tunnelbana), 
+              <a href="https://sl.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">SL</a> operates Stockholm's comprehensive public transport network, including buses, metro (Tunnelbana), 
               commuter trains (Pendeltåg), trams, and boats. The system covers Stockholm County and is one of the 
               most efficient public transport networks in the world.
             </p>
@@ -122,7 +122,7 @@ const TransportGuide = () => {
               <h3 className="text-lg font-semibold text-green-900 mb-3">💡 Money-Saving Tips</h3>
               <ul className="text-green-800 space-y-2">
                 <li>• Buy monthly cards if you travel more than 24 times per month</li>
-                <li>• Use the SL app for convenient mobile tickets</li>
+                <li>• Use the <a href="https://sl.se/en/in-english/getting-around/sl-app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">SL app</a> for convenient mobile tickets</li>
                 <li>• Students get 50% discount with valid student ID</li>
                 <li>• Seniors (65+) get reduced prices</li>
                 <li>• Annual cards offer additional savings</li>
@@ -135,7 +135,7 @@ const TransportGuide = () => {
               <div className="border-l-4 border-blue-500 pl-6">
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">1. Visit SL Center or Station</h3>
                 <p className="text-gray-600">
-                  Go to T-Centralen, Sergels Torg, or any major station with SL service.
+                  Go to <a href="https://sl.se/en/in-english/getting-around/customer-services/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">T-Centralen, Sergels Torg</a>, or any major station with SL service.
                 </p>
               </div>
 
@@ -159,14 +159,34 @@ const TransportGuide = () => {
               <p className="text-gray-300 mb-4">
                 Use the official SL app or website to plan routes, check schedules, and buy tickets.
               </p>
-              <a 
-                href="https://sl.se" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="inline-flex items-center bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg font-medium transition-colors"
-              >
-                Visit SL.se
-              </a>
+              <div className="space-y-2">
+                <a 
+                  href="https://sl.se" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg font-medium transition-colors"
+                >
+                  Visit SL.se
+                </a>
+                <div className="mt-4">
+                  <a 
+                    href="https://sl.se/en/in-english/getting-around/sl-app/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-300 hover:text-blue-200 block"
+                  >
+                    • Download SL App
+                  </a>
+                  <a 
+                    href="https://reseplanerare.sl.se" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-300 hover:text-blue-200 block"
+                  >
+                    • Journey Planner
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>

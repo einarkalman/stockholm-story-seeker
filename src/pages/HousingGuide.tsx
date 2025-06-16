@@ -157,17 +157,17 @@ const HousingGuide = () => {
                 <div>
                   <h4 className="font-semibold mb-2">Municipal Companies:</h4>
                   <ul className="text-sm space-y-1">
-                    <li>• <strong>Stockholmshem:</strong> City-owned, longest queues</li>
-                    <li>• <strong>Familjebostäder:</strong> Family-focused housing</li>
-                    <li>• <strong>Svenska Bostäder:</strong> Large municipal company</li>
+                    <li>• <strong><a href="https://www.stockholmshem.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Stockholmshem</a>:</strong> City-owned, longest queues</li>
+                    <li>• <strong><a href="https://www.familjebostader.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Familjebostäder</a>:</strong> Family-focused housing</li>
+                    <li>• <strong><a href="https://www.svenskabostader.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Svenska Bostäder</a>:</strong> Large municipal company</li>
                   </ul>
                 </div>
                 <div>
                   <h4 className="font-semibold mb-2">Private Companies:</h4>
                   <ul className="text-sm space-y-1">
-                    <li>• <strong>Akelius:</strong> Private rental company</li>
-                    <li>• <strong>Wallenstam:</strong> Mix of rental and cooperative</li>
-                    <li>• <strong>Heimstaden:</strong> Growing rental portfolio</li>
+                    <li>• <strong><a href="https://www.akelius.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Akelius</a>:</strong> Private rental company</li>
+                    <li>• <strong><a href="https://www.wallenstam.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Wallenstam</a>:</strong> Mix of rental and cooperative</li>
+                    <li>• <strong><a href="https://www.heimstaden.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Heimstaden</a>:</strong> Growing rental portfolio</li>
                   </ul>
                 </div>
               </div>
@@ -203,19 +203,19 @@ const HousingGuide = () => {
                 <div>
                   <h4 className="font-semibold text-green-900 mb-2">Rental Platforms:</h4>
                   <ul className="text-green-800 text-sm space-y-1">
-                    <li>• Blocket Bostad - Major classified site</li>
-                    <li>• Qasa - Furnished rentals</li>
-                    <li>• Samtrygg - Secure rental platform</li>
+                    <li>• <a href="https://www.blocket.se/bostad" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Blocket Bostad</a> - Major classified site</li>
+                    <li>• <a href="https://qasa.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Qasa</a> - Furnished rentals</li>
+                    <li>• <a href="https://samtrygg.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Samtrygg</a> - Secure rental platform</li>
                     <li>• Facebook groups - International housing</li>
                   </ul>
                 </div>
                 <div>
                   <h4 className="font-semibold text-green-900 mb-2">Purchase Platforms:</h4>
                   <ul className="text-green-800 text-sm space-y-1">
-                    <li>• Hemnet - Primary real estate site</li>
-                    <li>• Booli - Property search and analysis</li>
-                    <li>• SkandiaMäklarna - Real estate agency</li>
-                    <li>• Svensk Fastighetsförmedling</li>
+                    <li>• <a href="https://www.hemnet.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Hemnet</a> - Primary real estate site</li>
+                    <li>• <a href="https://www.booli.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Booli</a> - Property search and analysis</li>
+                    <li>• <a href="https://www.skandiamaklarna.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">SkandiaMäklarna</a> - Real estate agency</li>
+                    <li>• <a href="https://www.svenskfast.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Svensk Fastighetsförmedling</a></li>
                   </ul>
                 </div>
               </div>
@@ -233,7 +233,7 @@ const HousingGuide = () => {
                     <ul className="text-sm space-y-1">
                       <li>• Income statements (3 months)</li>
                       <li>• Employment contract</li>
-                      <li>• Credit report (UC)</li>
+                      <li>• Credit report (<a href="https://www.uc.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">UC</a>)</li>
                       <li>• Bank statements</li>
                       <li>• References from previous landlords</li>
                     </ul>

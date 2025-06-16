@@ -52,23 +52,23 @@ const CultureGuide = () => {
               <div className="bg-blue-50 p-6 rounded-lg">
                 <h3 className="text-lg font-semibold text-blue-900 mb-3">🏛️ Must-Visit Museums</h3>
                 <ul className="text-blue-800 text-sm space-y-2">
-                  <li>• <strong>Vasa Museum:</strong> Historic 17th-century warship</li>
-                  <li>• <strong>ABBA Museum:</strong> Interactive music experience</li>
-                  <li>• <strong>Moderna Museet:</strong> Modern and contemporary art</li>
-                  <li>• <strong>Skansen:</strong> Open-air museum and zoo</li>
-                  <li>• <strong>Nobel Prize Museum:</strong> Celebrating laureates</li>
-                  <li>• <strong>Nordic Museum:</strong> Swedish cultural history</li>
+                  <li>• <strong><a href="https://www.vasamuseet.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Vasa Museum</a>:</strong> Historic 17th-century warship</li>
+                  <li>• <strong><a href="https://www.abbamuseum.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">ABBA Museum</a>:</strong> Interactive music experience</li>
+                  <li>• <strong><a href="https://www.modernamuseet.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Moderna Museet</a>:</strong> Modern and contemporary art</li>
+                  <li>• <strong><a href="https://www.skansen.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Skansen</a>:</strong> Open-air museum and zoo</li>
+                  <li>• <strong><a href="https://www.nobelprizemuseum.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Nobel Prize Museum</a>:</strong> Celebrating laureates</li>
+                  <li>• <strong><a href="https://www.nordiskamuseet.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Nordic Museum</a>:</strong> Swedish cultural history</li>
                 </ul>
               </div>
 
               <div className="bg-purple-50 p-6 rounded-lg">
                 <h3 className="text-lg font-semibold text-purple-900 mb-3">🎨 Art Galleries</h3>
                 <ul className="text-purple-800 text-sm space-y-2">
-                  <li>• <strong>Fotografiska:</strong> Contemporary photography</li>
-                  <li>• <strong>Magasin III:</strong> Experimental contemporary art</li>
-                  <li>• <strong>Bonniers Konsthall:</strong> Cutting-edge exhibitions</li>
-                  <li>• <strong>Färgfabriken:</strong> Interdisciplinary art center</li>
-                  <li>• <strong>Gallery Steinsland Berliner:</strong> Emerging artists</li>
+                  <li>• <strong><a href="https://www.fotografiska.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Fotografiska</a>:</strong> Contemporary photography</li>
+                  <li>• <strong><a href="https://www.magasin3.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Magasin III</a>:</strong> Experimental contemporary art</li>
+                  <li>• <strong><a href="https://www.bonnierkonsthall.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Bonniers Konsthall</a>:</strong> Cutting-edge exhibitions</li>
+                  <li>• <strong><a href="https://www.fargfabriken.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Färgfabriken</a>:</strong> Interdisciplinary art center</li>
+                  <li>• <strong><a href="https://www.gallerysteinlandberliner.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Gallery Steinsland Berliner</a>:</strong> Emerging artists</li>
                 </ul>
               </div>
             </div>
@@ -82,7 +82,7 @@ const CultureGuide = () => {
                   Stockholm comes alive in summer with outdoor concerts, cultural festivals, and Midsummer celebrations.
                 </p>
                 <div className="bg-gray-100 p-3 rounded text-sm">
-                  <strong>Key Events:</strong> Stockholm Music & Arts, Summerburst, Midsummer at Skansen
+                  <strong>Key Events:</strong> <a href="https://www.stockholmmusicandarts.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Stockholm Music & Arts</a>, <a href="https://www.summerburst.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Summerburst</a>, <a href="https://www.skansen.se/en/midsummer" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Midsummer at Skansen</a>
                 </div>
               </div>
 
@@ -92,7 +92,7 @@ const CultureGuide = () => {
                   Year-round cultural events celebrate everything from film to literature to design.
                 </p>
                 <div className="bg-gray-100 p-3 rounded text-sm">
-                  <strong>Highlights:</strong> Stockholm International Film Festival, Culture Night, Design Week
+                  <strong>Highlights:</strong> <a href="https://www.stockholmfilmfestival.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Stockholm International Film Festival</a>, <a href="https://www.kulturnatten.stockholm.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Culture Night</a>, <a href="https://www.stockholmdesignweek.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Design Week</a>
                 </div>
               </div>
             </div>
@@ -109,10 +109,10 @@ const CultureGuide = () => {
                 <div>
                   <h4 className="font-semibold text-pink-900 mb-2">Venues:</h4>
                   <ul className="text-pink-800 space-y-1">
-                    <li>• Berns Salonger (historic venue)</li>
-                    <li>• Göta Källare (rock & indie)</li>
-                    <li>• Fasching (jazz club)</li>
-                    <li>• Debaser (alternative music)</li>
+                    <li>• <a href="https://www.berns.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Berns Salonger</a> (historic venue)</li>
+                    <li>• <a href="https://www.gotakallare.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Göta Källare</a> (rock & indie)</li>
+                    <li>• <a href="https://www.fasching.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Fasching</a> (jazz club)</li>
+                    <li>• <a href="https://www.debaser.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Debaser</a> (alternative music)</li>
                   </ul>
                 </div>
                 <div>

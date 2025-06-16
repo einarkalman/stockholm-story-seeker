@@ -85,17 +85,17 @@ const FoodGuide = () => {
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-2">Michelin-Starred:</h4>
                     <ul className="text-gray-600 space-y-1">
-                      <li>• Frantzén (3 stars) - Modern Nordic</li>
-                      <li>• Oaxen Krog (2 stars) - Island dining</li>
-                      <li>• Gastrologik (1 star) - Sustainable cuisine</li>
+                      <li>• <a href="https://www.restaurantfrantzen.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Frantzén (3 stars)</a> - Modern Nordic</li>
+                      <li>• <a href="https://oaxenkrog.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Oaxen Krog (2 stars)</a> - Island dining</li>
+                      <li>• <a href="https://gastrologik.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Gastrologik (1 star)</a> - Sustainable cuisine</li>
                     </ul>
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-2">Upscale Dining:</h4>
                     <ul className="text-gray-600 space-y-1">
-                      <li>• Mathias Dahlgren - Waterfront views</li>
-                      <li>• Adam/Albin - Contemporary Swedish</li>
-                      <li>• AG - Steakhouse excellence</li>
+                      <li>• <a href="https://www.mdghs.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Mathias Dahlgren</a> - Waterfront views</li>
+                      <li>• <a href="https://adamalbin.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Adam/Albin</a> - Contemporary Swedish</li>
+                      <li>• <a href="https://restaurangag.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">AG</a> - Steakhouse excellence</li>
                     </ul>
                   </div>
                 </div>
@@ -110,17 +110,17 @@ const FoodGuide = () => {
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-2">Traditional Swedish:</h4>
                     <ul className="text-gray-600 space-y-1">
-                      <li>• Meatballs for the People - Modern take on classics</li>
-                      <li>• Pelikan - Historic beer hall</li>
-                      <li>• Den Gyldene Freden - Old Stockholm atmosphere</li>
+                      <li>• <a href="https://meatballs.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Meatballs for the People</a> - Modern take on classics</li>
+                      <li>• <a href="https://pelikan.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Pelikan</a> - Historic beer hall</li>
+                      <li>• <a href="https://gyldenefreden.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Den Gyldene Freden</a> - Old Stockholm atmosphere</li>
                     </ul>
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-2">International:</h4>
                     <ul className="text-gray-600 space-y-1">
-                      <li>• Tacobar - Gourmet tacos</li>
-                      <li>• Ramen Yebisu - Authentic Japanese</li>
-                      <li>• Punk Royale - Asian fusion with attitude</li>
+                      <li>• <a href="https://tacobar.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Tacobar</a> - Gourmet tacos</li>
+                      <li>• <a href="https://ramenyebisu.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Ramen Yebisu</a> - Authentic Japanese</li>
+                      <li>• <a href="https://punkroyale.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Punk Royale</a> - Asian fusion with attitude</li>
                     </ul>
                   </div>
                 </div>
@@ -135,17 +135,17 @@ const FoodGuide = () => {
                 <div>
                   <h4 className="font-semibold text-yellow-900 mb-2">Premium Options:</h4>
                   <ul className="text-yellow-800 text-sm space-y-1">
-                    <li>• <strong>ICA Maxi:</strong> Large stores, wide selection</li>
-                    <li>• <strong>Coop Konsum:</strong> Quality focus, organic options</li>
-                    <li>• <strong>Hemköp:</strong> Fresh produce specialist</li>
+                    <li>• <strong><a href="https://www.ica.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">ICA Maxi</a>:</strong> Large stores, wide selection</li>
+                    <li>• <strong><a href="https://www.coop.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Coop Konsum</a>:</strong> Quality focus, organic options</li>
+                    <li>• <strong><a href="https://www.hemkop.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Hemköp</a>:</strong> Fresh produce specialist</li>
                   </ul>
                 </div>
                 <div>
                   <h4 className="font-semibold text-yellow-900 mb-2">Budget-Friendly:</h4>
                   <ul className="text-yellow-800 text-sm space-y-1">
-                    <li>• <strong>Willys:</strong> Discount prices</li>
-                    <li>• <strong>Lidl:</strong> German chain, good deals</li>
-                    <li>• <strong>Netto:</strong> Basic needs at low prices</li>
+                    <li>• <strong><a href="https://www.willys.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Willys</a>:</strong> Discount prices</li>
+                    <li>• <strong><a href="https://www.lidl.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Lidl</a>:</strong> German chain, good deals</li>
+                    <li>• <strong><a href="https://netto.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Netto</a>:</strong> Basic needs at low prices</li>
                   </ul>
                 </div>
               </div>
@@ -165,9 +165,9 @@ const FoodGuide = () => {
               <div className="border-l-4 border-blue-500 pl-6">
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">Specialty Stores</h3>
                 <ul className="text-gray-600 space-y-1">
-                  <li>• Östermalms Saluhall - Gourmet food market</li>
-                  <li>• Hötorgshallen - Traditional market hall</li>
-                  <li>• Systembolaget - Government liquor stores (only place for alcohol >3.5%)</li>
+                  <li>• <a href="https://ostermalmshallen.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Östermalms Saluhall</a> - Gourmet food market</li>
+                  <li>• <a href="https://hotorgshallen.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Hötorgshallen</a> - Traditional market hall</li>
+                  <li>• <a href="https://www.systembolaget.se" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Systembolaget</a> - Government liquor stores (only place for alcohol &gt; 3.5%)</li>
                   <li>• Local fishmongers and butchers for premium quality</li>
                 </ul>
               </div>
@@ -212,17 +212,17 @@ const FoodGuide = () => {
                 <div>
                   <h4 className="font-semibold text-white mb-2">Apps:</h4>
                   <ul className="text-gray-300 space-y-1">
-                    <li>• Foodora/Uber Eats - Food delivery</li>
-                    <li>• Too Good To Go - Reduce food waste</li>
-                    <li>• OpenTable - Restaurant reservations</li>
+                    <li>• <a href="https://www.foodora.se" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200">Foodora</a>/<a href="https://www.ubereats.com" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200">Uber Eats</a> - Food delivery</li>
+                    <li>• <a href="https://toogoodtogo.se" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200">Too Good To Go</a> - Reduce food waste</li>
+                    <li>• <a href="https://www.opentable.com" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200">OpenTable</a> - Restaurant reservations</li>
                   </ul>
                 </div>
                 <div>
                   <h4 className="font-semibold text-white mb-2">Resources:</h4>
                   <ul className="text-gray-300 space-y-1">
-                    <li>• White Guide - Restaurant reviews</li>
-                    <li>• Time Out Stockholm - Food guides</li>
-                    <li>• Yelp Stockholm - User reviews</li>
+                    <li>• <a href="https://whiteguide.se" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200">White Guide</a> - Restaurant reviews</li>
+                    <li>• <a href="https://www.timeout.com/stockholm" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200">Time Out Stockholm</a> - Food guides</li>
+                    <li>• <a href="https://www.yelp.se" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-blue-200">Yelp Stockholm</a> - User reviews</li>
                   </ul>
                 </div>
               </div>
