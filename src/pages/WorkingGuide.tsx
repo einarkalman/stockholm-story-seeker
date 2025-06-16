@@ -1,4 +1,3 @@
-
 import { ArrowLeft, Clock, Briefcase, Users, FileText, DollarSign } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -29,6 +28,15 @@ const WorkingGuide = () => {
         </div>
       </div>
 
+      {/* Hero Image */}
+      <div className="w-full h-64 overflow-hidden">
+        <img 
+          src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80" 
+          alt="Modern Stockholm office environment" 
+          className="w-full h-full object-cover"
+        />
+      </div>
+
       {/* Content */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="bg-white rounded-xl shadow-lg p-8">
@@ -55,14 +63,32 @@ const WorkingGuide = () => {
 
               <div className="bg-green-50 p-6 rounded-lg">
                 <h3 className="text-lg font-semibold text-green-900 mb-3">🌟 Major Employers</h3>
-                <ul className="text-green-800 text-sm space-y-1">
-                  <li>• Spotify</li>
-                  <li>• Klarna</li>
-                  <li>• Ericsson</li>
-                  <li>• H&M</li>
-                  <li>• SEB Bank</li>
-                  <li>• King (Activision Blizzard)</li>
-                </ul>
+                <div className="space-y-3">
+                  <div className="flex items-center space-x-3">
+                    <div className="w-8 h-8 bg-green-600 rounded flex items-center justify-center">
+                      <span className="text-white text-xs font-bold">S</span>
+                    </div>
+                    <span className="text-green-800 text-sm">Spotify</span>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <div className="w-8 h-8 bg-pink-600 rounded flex items-center justify-center">
+                      <span className="text-white text-xs font-bold">K</span>
+                    </div>
+                    <span className="text-green-800 text-sm">Klarna</span>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <div className="w-8 h-8 bg-blue-600 rounded flex items-center justify-center">
+                      <span className="text-white text-xs font-bold">E</span>
+                    </div>
+                    <span className="text-green-800 text-sm">Ericsson</span>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <div className="w-8 h-8 bg-red-600 rounded flex items-center justify-center">
+                      <span className="text-white text-xs font-bold">H&M</span>
+                    </div>
+                    <span className="text-green-800 text-sm">H&M</span>
+                  </div>
+                </div>
               </div>
             </div>
 

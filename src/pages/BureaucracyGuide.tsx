@@ -29,6 +29,15 @@ const BureaucracyGuide = () => {
         </div>
       </div>
 
+      {/* Hero Image */}
+      <div className="w-full h-64 overflow-hidden">
+        <img 
+          src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80" 
+          alt="Swedish government building and documents" 
+          className="w-full h-full object-cover"
+        />
+      </div>
+
       {/* Content */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="bg-white rounded-xl shadow-lg p-8">
@@ -39,6 +48,19 @@ const BureaucracyGuide = () => {
               It's essential for almost everything in Swedish society - from opening bank accounts to signing rental contracts, 
               getting a mobile phone plan, or accessing healthcare.
             </p>
+
+            {/* Skatteverket Logo Section */}
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-lg mb-8 border border-blue-100">
+              <div className="flex items-center justify-between mb-4">
+                <h3 className="text-lg font-semibold text-blue-900">Skatteverket - Swedish Tax Agency</h3>
+                <div className="w-16 h-16 bg-blue-600 rounded-lg flex items-center justify-center">
+                  <Building2 className="h-8 w-8 text-white" />
+                </div>
+              </div>
+              <p className="text-blue-800 text-sm">
+                The Swedish Tax Agency is responsible for issuing personnummer and handles all registration processes for new residents.
+              </p>
+            </div>
 
             <div className="bg-blue-50 p-6 rounded-lg mb-8">
               <h3 className="text-lg font-semibold text-blue-900 mb-3">📋 Requirements to Get a Personnummer</h3>
@@ -52,28 +74,44 @@ const BureaucracyGuide = () => {
 
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Step-by-Step Process</h2>
             
+            {/* Process Steps with Images */}
             <div className="space-y-6 mb-8">
-              <div className="border-l-4 border-blue-500 pl-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">1. Register Your Move to Sweden</h3>
-                <p className="text-gray-600">
-                  Visit Skatteverket (Swedish Tax Agency) either in person or online to register your move. 
-                  You'll need to provide proof of identity, residence permit (if applicable), and housing documentation.
-                </p>
+              <div className="flex items-start space-x-4 border-l-4 border-blue-500 pl-6">
+                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-blue-600 font-bold">1</span>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Register Your Move to Sweden</h3>
+                  <p className="text-gray-600">
+                    Visit Skatteverket (Swedish Tax Agency) either in person or online to register your move. 
+                    You'll need to provide proof of identity, residence permit (if applicable), and housing documentation.
+                  </p>
+                </div>
               </div>
 
-              <div className="border-l-4 border-blue-500 pl-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">2. Provide Required Documents</h3>
-                <p className="text-gray-600">
-                  Bring your passport, residence permit, rental contract or housing documentation, 
-                  and any employment contracts or student enrollment certificates.
-                </p>
+              <div className="flex items-start space-x-4 border-l-4 border-blue-500 pl-6">
+                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-blue-600 font-bold">2</span>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Provide Required Documents</h3>
+                  <p className="text-gray-600">
+                    Bring your passport, residence permit, rental contract or housing documentation, 
+                    and any employment contracts or student enrollment certificates.
+                  </p>
+                </div>
               </div>
 
-              <div className="border-l-4 border-blue-500 pl-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">3. Wait for Processing</h3>
-                <p className="text-gray-600">
-                  Processing typically takes 2-4 weeks. You'll receive your personnummer by mail once approved.
-                </p>
+              <div className="flex items-start space-x-4 border-l-4 border-blue-500 pl-6">
+                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-blue-600 font-bold">3</span>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Wait for Processing</h3>
+                  <p className="text-gray-600">
+                    Processing typically takes 2-4 weeks. You'll receive your personnummer by mail once approved.
+                  </p>
+                </div>
               </div>
             </div>
 

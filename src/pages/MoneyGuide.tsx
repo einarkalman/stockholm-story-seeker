@@ -1,4 +1,3 @@
-
 import { ArrowLeft, Clock, CreditCard, DollarSign, Building2, Smartphone } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -27,6 +26,15 @@ const MoneyGuide = () => {
             10 min read
           </div>
         </div>
+      </div>
+
+      {/* Hero Image */}
+      <div className="w-full h-64 overflow-hidden">
+        <img 
+          src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80" 
+          alt="Modern Swedish banking and digital payments" 
+          className="w-full h-full object-cover"
+        />
       </div>
 
       {/* Content */}
@@ -69,7 +77,15 @@ const MoneyGuide = () => {
             <div className="space-y-6 mb-8">
               <div className="border border-gray-200 p-6 rounded-lg">
                 <div className="flex items-center justify-between mb-4">
-                  <h3 className="text-xl font-semibold text-gray-900">Handelsbanken</h3>
+                  <div className="flex items-center space-x-4">
+                    <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg flex items-center justify-center">
+                      <span className="text-white font-bold text-lg">HB</span>
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-semibold text-gray-900">Handelsbanken</h3>
+                      <p className="text-sm text-gray-500">Founded 1871</p>
+                    </div>
+                  </div>
                   <Building2 className="h-6 w-6 text-blue-600" />
                 </div>
                 <p className="text-gray-600 mb-4">
@@ -99,7 +115,15 @@ const MoneyGuide = () => {
 
               <div className="border border-gray-200 p-6 rounded-lg">
                 <div className="flex items-center justify-between mb-4">
-                  <h3 className="text-xl font-semibold text-gray-900">SEB (Skandinaviska Enskilda Banken)</h3>
+                  <div className="flex items-center space-x-4">
+                    <div className="w-16 h-16 bg-gradient-to-br from-green-600 to-green-800 rounded-lg flex items-center justify-center">
+                      <span className="text-white font-bold text-lg">SEB</span>
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-semibold text-gray-900">SEB (Skandinaviska Enskilda Banken)</h3>
+                      <p className="text-sm text-gray-500">Founded 1856</p>
+                    </div>
+                  </div>
                   <Building2 className="h-6 w-6 text-green-600" />
                 </div>
                 <p className="text-gray-600 mb-4">
@@ -129,7 +153,15 @@ const MoneyGuide = () => {
 
               <div className="border border-gray-200 p-6 rounded-lg">
                 <div className="flex items-center justify-between mb-4">
-                  <h3 className="text-xl font-semibold text-gray-900">Nordea</h3>
+                  <div className="flex items-center space-x-4">
+                    <div className="w-16 h-16 bg-gradient-to-br from-purple-600 to-purple-800 rounded-lg flex items-center justify-center">
+                      <span className="text-white font-bold text-lg">N</span>
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-semibold text-gray-900">Nordea</h3>
+                      <p className="text-sm text-gray-500">Nordic region's largest bank</p>
+                    </div>
+                  </div>
                   <Building2 className="h-6 w-6 text-purple-600" />
                 </div>
                 <p className="text-gray-600 mb-4">
@@ -162,8 +194,15 @@ const MoneyGuide = () => {
             
             <div className="grid md:grid-cols-2 gap-6 mb-8">
               <div className="bg-green-50 p-6 rounded-lg">
-                <Smartphone className="h-8 w-8 text-green-600 mb-3" />
-                <h3 className="text-lg font-semibold text-green-900 mb-3">Swish - Mobile Payments</h3>
+                <div className="flex items-center space-x-3 mb-3">
+                  <div className="w-12 h-12 bg-green-600 rounded-lg flex items-center justify-center">
+                    <Smartphone className="h-6 w-6 text-white" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-green-900">Swish</h3>
+                    <p className="text-sm text-green-700">Mobile Payments</p>
+                  </div>
+                </div>
                 <p className="text-green-800 text-sm mb-3">
                   Sweden's ubiquitous mobile payment app. Essential for daily life.
                 </p>
@@ -176,8 +215,15 @@ const MoneyGuide = () => {
               </div>
 
               <div className="bg-blue-50 p-6 rounded-lg">
-                <CreditCard className="h-8 w-8 text-blue-600 mb-3" />
-                <h3 className="text-lg font-semibold text-blue-900 mb-3">BankID - Digital Identity</h3>
+                <div className="flex items-center space-x-3 mb-3">
+                  <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center">
+                    <CreditCard className="h-6 w-6 text-white" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-blue-900">BankID</h3>
+                    <p className="text-sm text-blue-700">Digital Identity</p>
+                  </div>
+                </div>
                 <p className="text-blue-800 text-sm mb-3">
                   Digital identification system used for online services.
                 </p>
