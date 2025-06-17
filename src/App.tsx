@@ -17,6 +17,12 @@ import FoodGuide from "./pages/FoodGuide";
 import HousingGuide from "./pages/HousingGuide";
 import GuidesOverview from "./pages/GuidesOverview";
 import NotFound from "./pages/NotFound";
+// Living in Stockholm pages
+import FindingHousingGuide from "./pages/FindingHousingGuide";
+import NeighborhoodsGuide from "./pages/NeighborhoodsGuide";
+import CostOfLivingGuide from "./pages/CostOfLivingGuide";
+// Working & Business pages
+import JobSearchGuide from "./pages/JobSearchGuide";
 
 const queryClient = new QueryClient();
 
@@ -39,6 +45,15 @@ const App = () => (
           <Route path="/guides/culture" element={<CultureGuide />} />
           <Route path="/guides/food" element={<FoodGuide />} />
           <Route path="/guides/housing" element={<HousingGuide />} />
+          
+          {/* Living in Stockholm pages */}
+          <Route path="/finding-housing" element={<FindingHousingGuide />} />
+          <Route path="/neighborhoods" element={<NeighborhoodsGuide />} />
+          <Route path="/cost-of-living" element={<CostOfLivingGuide />} />
+          
+          {/* Working & Business pages */}
+          <Route path="/job-search" element={<JobSearchGuide />} />
+          
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

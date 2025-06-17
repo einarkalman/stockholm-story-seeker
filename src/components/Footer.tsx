@@ -1,44 +1,46 @@
 
+import { Link } from 'react-router-dom';
+
 const Footer = () => {
   const footerSections = [
     {
       title: "Living in Stockholm",
       links: [
-        "Finding Housing",
-        "Neighborhoods Guide", 
-        "Cost of Living",
-        "Healthcare System",
-        "Education"
+        { name: "Finding Housing", path: "/finding-housing" },
+        { name: "Neighborhoods Guide", path: "/neighborhoods" }, 
+        { name: "Cost of Living", path: "/cost-of-living" },
+        { name: "Healthcare System", path: "/guides/living" },
+        { name: "Education", path: "/guides/living" }
       ]
     },
     {
       title: "Working & Business",
       links: [
-        "Job Search",
-        "Work Permits",
-        "Taxes",
-        "Starting a Business",
-        "Workplace Culture"
+        { name: "Job Search", path: "/job-search" },
+        { name: "Work Permits", path: "/guides/bureaucracy" },
+        { name: "Taxes", path: "/guides/money" },
+        { name: "Starting a Business", path: "/guides/working" },
+        { name: "Workplace Culture", path: "/guides/working" }
       ]
     },
     {
       title: "Essential Services",
       links: [
-        "Banking",
-        "Phone & Internet",
-        "Transportation",
-        "Government Services",
-        "Emergency Numbers"
+        { name: "Banking", path: "/guides/money" },
+        { name: "Phone & Internet", path: "/guides/living" },
+        { name: "Transportation", path: "/guides/transport" },
+        { name: "Government Services", path: "/guides/bureaucracy" },
+        { name: "Emergency Numbers", path: "/guides/living" }
       ]
     },
     {
       title: "Culture & Lifestyle",
       links: [
-        "Swedish Language",
-        "Local Events",
-        "Food & Dining",
-        "Sports & Recreation",
-        "Travel Tips"
+        { name: "Swedish Language", path: "/guides/culture" },
+        { name: "Local Events", path: "/guides/culture" },
+        { name: "Food & Dining", path: "/guides/food" },
+        { name: "Sports & Recreation", path: "/guides/culture" },
+        { name: "Travel Tips", path: "/guides/culture" }
       ]
     }
   ];
@@ -78,9 +80,9 @@ const Footer = () => {
               <ul className="space-y-2">
                 {section.links.map((link, linkIndex) => (
                   <li key={linkIndex}>
-                    <a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">
-                      {link}
-                    </a>
+                    <Link to={link.path} className="text-gray-400 hover:text-white transition-colors text-sm">
+                      {link.name}
+                    </Link>
                   </li>
                 ))}
               </ul>
