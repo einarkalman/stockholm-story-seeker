@@ -1,4 +1,3 @@
-
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -17,9 +16,9 @@ const Footer = () => {
       title: "Working & Business",
       links: [
         { name: "Job Search", path: "/job-search" },
+        { name: "Starting a Business", path: "/guides/start-business" },
         { name: "Work Permits", path: "/guides/bureaucracy" },
         { name: "Taxes", path: "/guides/money" },
-        { name: "Starting a Business", path: "/guides/working" },
         { name: "Workplace Culture", path: "/guides/working" }
       ]
     },

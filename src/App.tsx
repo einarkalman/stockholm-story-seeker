@@ -17,6 +17,7 @@ import FoodGuide from "./pages/FoodGuide";
 import HousingGuide from "./pages/HousingGuide";
 import GuidesOverview from "./pages/GuidesOverview";
 import NotFound from "./pages/NotFound";
+import StartBusinessGuide from "./pages/StartBusinessGuide";
 // Living in Stockholm pages
 import FindingHousingGuide from "./pages/FindingHousingGuide";
 import NeighborhoodsGuide from "./pages/NeighborhoodsGuide";
@@ -45,6 +46,7 @@ const App = () => (
           <Route path="/guides/culture" element={<CultureGuide />} />
           <Route path="/guides/food" element={<FoodGuide />} />
           <Route path="/guides/housing" element={<HousingGuide />} />
+          <Route path="/guides/start-business" element={<StartBusinessGuide />} />
           
           {/* Living in Stockholm pages */}
           <Route path="/finding-housing" element={<FindingHousingGuide />} />
